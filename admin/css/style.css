@@ -1,0 +1,115 @@
+html{
+	background: lightgreen;
+}
+body{
+	font-family:Georgia;
+	width: 900px;
+	background: skyblue;
+	border: 4px solid lightblue;
+	margin: 20px auto;
+}
+h1{
+	padding: 10px;
+	font-size:21px;
+	background:darkblue;
+	margin:0;
+	color:#fff;
+}
+ul{
+	list-style: none;
+	margin:20px;
+	padding: 0;
+}
+ul li{
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+ul b{
+	display:block;
+	font-size: 18px;
+	margin-bottom: 5px;
+	color:#2980E4;
+}
+ul i,small{
+	color:#777;
+	font-size: 12px;
+	margin-right: 10px;
+}
+ul span{
+	color:brown;
+}
+ul div{
+	margin:5px 0;
+	font-size: 13px;
+	line-height: 1.5em;
+	color: #555;
+}
+ul img{
+	margin-left: 20px;
+}
+ul a{
+	color:#2980B9;
+}
+ul a.del{
+	color:#D35400;
+}
+a.new{
+	display:block;
+	padding:8px 0;
+	text-align: center;
+	width: 160px;
+	margin:10px;
+	color: #fff;
+	background:#1ABC9C;
+	text-decoration: none;
+}
+form{
+	margin:20px;
+}
+form label{
+	display:block;
+	margin-top:10px;
+	color:#555;
+}
+input[type=text],input[type=password],textarea,select{
+	font-family:Palatino Linotype;
+	border:1px solid #ddd;
+	padding:6px;
+	width:200px;
+	background:#fff;
+}
+textarea{
+	height:100px;
+}
+input[type=submit],.back{
+	padding: 10px 24px;
+	margin-right:10px;
+	background:#1ABC9C;
+	color:#fff;
+	text-decoration: none;
+}
+ul.menu{
+	list-style: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;	
+}
+ul.menu li{
+	float:left;
+	border-right: 1px solid #1ABC9C;
+	background: #16A085;
+	margin-bottom: -10px;
+
+}
+ul.menu a{
+	display: block;
+	margin:0px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color:#fff;
+}
+ul.menu a:hover{
+	background: #1ABC9C;
+}
